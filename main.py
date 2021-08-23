@@ -1,9 +1,10 @@
 import time
+import credentials
 
 from binance import ThreadedWebsocketManager
 
-api_key = '<api_key'>
-api_secret = '<api_secret'>
+api_key = credentials.api_key
+api_secret = credentials.api_secret
 
 def main():
 
