@@ -15,7 +15,7 @@ def main():
 
     def handle_socket_message(msg):
         print(f"message type: {msg['e']}")
-        print(msga1)
+        print(msg)
 
     twm.start_kline_socket(callback=handle_socket_message, symbol=symbol)
 
